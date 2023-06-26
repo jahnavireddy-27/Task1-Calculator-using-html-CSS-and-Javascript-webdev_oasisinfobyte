@@ -1,0 +1,81 @@
+h1{
+	text-shadow: 3px 3px 1px #ee82ee, -3px -3px 1px blanchedalmond;
+	font-size: 3em;
+	text-align: center;
+}
+h1::first-letter{
+	font-size: 2em;
+}
+
+body{
+	
+	background-image: url(background_img.jpg);
+	background-size: cover;
+	display: grid;
+	height:100%;
+	place-items: center;
+}
+
+
+p{
+	font: 1em sans-serif;
+	font-style: normal;
+}
+
+
+#main_box{
+	width: 400px;
+	height: 450px;
+	background-color: black;
+	position:relative;
+	border: 5px solid hsl(60, 100%, 50%);
+	border-radius: 5px;
+
+}
+
+#res_screen{
+	width:370px;
+	position:relative;
+	height: 90px;
+    text-align: right;
+	padding: 3px 6px;
+	top:7px;
+	right:7px;
+	left:7px;
+	bottom: 50px;
+	color: black;
+	background-color:whitesmoke;
+	font-size: 40px;
+	display: flex;
+	border: 3px solid;
+    border-color:hsl(60, 100%, 50%);
+	
+}
+
+
+#res_screen:hover{
+	top:7px;
+	right:7px;
+	left:7px;
+	bottom: 50px;
+	border: 3px solid;
+    border-color:darkturquoise ;
+}
+
+.dig_button{
+	width:90px;
+	position:relative;
+	padding: 2px 1px;
+	cursor: pointer;
+	left:13px;
+	top:45px;
+	height: 55px;
+	font-size: 20px;
+	background-color: darkturquoise;
+}
+
+.dig_button:hover{
+	background-color: hsl(60, 100%, 50%);
+}
+
+
