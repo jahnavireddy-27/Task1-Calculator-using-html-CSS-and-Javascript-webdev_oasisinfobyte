@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang ="en">
     <head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-UA-Compatable" content="IE=edge">
-
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta http-equiv="x-UA-Compatable" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style.css">
 	   
-        <title>
-           Calculator 
-        </title>
+        <title>  Calculator </title>
     </head>
-	<body>
-		<script src="script.js"></script>
 
-		<h1 >
-			Calculator
-		</h1>
-		<div id="main_box">
+    <body>
+	<script src="script.js"></script>
+
+	<div id="main_box">
 		
-			<input type="text"  id="res_screen" >
+		<input type="text"  id="res_screen" readonly>
 		<div >
 			<input type="button" class="dig_button" value="Clr" onclick="Clear()">
 			<input type="button" class="dig_button" value="%"   onclick="solve('%')">
@@ -50,11 +45,10 @@
 			<input type="button" class="dig_button" value="."  onclick="solve('.')">
 			<input type="button" class="dig_button" value="="  onclick="result()">
 			<br>
-
-
 		</div>	
 		
-		</div>
+	  </div>
 		
-	</body>
+     </body>
+
 </html>
